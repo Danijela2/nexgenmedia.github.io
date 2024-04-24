@@ -1,0 +1,77 @@
+/* Allgemeine Stile */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#logo {
+    width: 150px;
+}
+
+nav {
+    background: #555;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+nav ul li a:hover {
+    border-bottom: 2px solid #fff;
+}
+
+/* Hauptinhalt Stile */
+main {
+    padding: 20px;
+    background: #fff;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+/* Fußbereich Stile */
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Stile für Abschnitte */
+section {
+    margin-bottom: 20px;
+}
+
+/* Reaktion auf kleine Bildschirme */
+@media (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin-bottom: 10px;
+    }
+}
