@@ -1,0 +1,96 @@
+/* Baseline styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #fff;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+/* Styling for header */
+header {
+    background-color: #005b96; /* Dark Blue */
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+#logo {
+    height: 100px; /* Adjust the size of your logo */
+}
+
+/* Navigation styles */
+nav {
+    background-color: #007bff; /* Bootstrap Primary Blue */
+    color: white;
+    padding: 0.5rem;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover,
+nav ul li a:focus {
+    color: #d4e6f1; /* Lighter Blue */
+    text-decoration: none;
+}
+
+/* Main content styles */
+main {
+    padding: 2rem;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #333;
+}
+
+h1 {
+    margin-bottom: 1rem;
+}
+
+/* Section styles */
+section {
+    margin-bottom: 2rem;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+    }
+
+    nav ul li {
+        margin-bottom: 0.5rem;
+    }
+}
+
+/* Creative and modern specific styles */
+/* Add your additional styles here, for example, custom buttons, card designs, etc. */
